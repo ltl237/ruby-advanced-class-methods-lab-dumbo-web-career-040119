@@ -1,6 +1,11 @@
 class Song
+<<<<<<< HEAD
 	attr_accessor :name, :artist_name
   	@@all = []
+=======
+  attr_accessor :name, :artist_name
+  @@all = [
+>>>>>>> 97e08045a2ecfa712ac92e4928e7b92920a15707
 
   	def self.all
   	  @@all
